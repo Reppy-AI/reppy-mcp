@@ -10,14 +10,14 @@ Install and run
 
 Clone this repository and run::
 
-    git clone https://github.com/kitsunies/reppy-mcp.git
+    git clone https://github.com/Reppy-AI/reppy-mcp.git
     cd reppy-mcp
     npm ci --ignore-scripts
     npm test
     npm install --global . --ignore-scripts
 
 The shared CLI dependency is pinned to reviewed public commit
-``dcb804194d79a3eb781364e5798ed77cdaafebbc`` through its GitHub archive URL. The lockfile
+``0156625794fe1e22a620933d2529bb44b24c3f80`` through its GitHub archive URL. The lockfile
 records the archive integrity. No sibling checkout or npm registry
 publication is required.
 
@@ -94,7 +94,7 @@ Connecting this server allows the assistant and its provider to receive your
 returned training data. Routine and exercise labels are user-authored and may
 contain personal information. The assistant provider's own retention policies
 apply. Only connect a host you trust with this data. Notes, Coach conversations,
-account profiles, bodyweight, goals, media, and credentials are excluded by the
+account profiles, bodyweight history, goals, media, and credentials are excluded by the
 public API. Tool annotations do not replace the server's permissions.
 
 SDK version is pinned to 1.32.1; Zod is pinned to 3.25.76. Protocol tests use
@@ -109,5 +109,5 @@ OpenAPI schema: https://api.reppyai.com/openapi.json
 
 Public repository release targets:
 
-* https://github.com/kitsunies/reppy-cli
-* https://github.com/kitsunies/reppy-mcp
+* https://github.com/Reppy-AI/reppy-cli
+* https://github.com/Reppy-AI/reppy-mcp
