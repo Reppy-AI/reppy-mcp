@@ -1,0 +1,30 @@
+{
+  "name": "reppy-mcp",
+  "version": "0.1.0",
+  "description": "Read-only Reppy MCP server using local stdio",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "reppy-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.rst",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "reppy-cli": "https://github.com/kitsunies/reppy-cli/archive/dcb804194d79a3eb781364e5798ed77cdaafebbc.tar.gz",
+    "zod": "3.25.76"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitsunies/reppy-mcp.git"
+  }
+}
